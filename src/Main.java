@@ -5,6 +5,7 @@ public class Main {
         ArrayDeque<Integer> j = new ArrayDeque<>();
 
         j.add(1);
+        j.add(2);
         j.offerLast(3);
         j.offerLast(2);
 
