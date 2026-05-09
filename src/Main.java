@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         ArrayDeque<Integer> j = new ArrayDeque<>();
 
-        j.add(1);
-        j.add(2);
-        j.offerLast(3);
-        j.offerLast(2);
+        for (int i = 10; i<=10;i++) {
+            j.add(i);
+            System.out.println(i);
+        }
 
         System.out.println(j);
 
