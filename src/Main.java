@@ -5,7 +5,7 @@ public class Main {
         ArrayDeque<Integer> j = new ArrayDeque<>();
 
         for (int i = 10; i<=10;i++) {
-            j.add(i);
+            j.addLast(i);
             System.out.println(i);
         }
 
